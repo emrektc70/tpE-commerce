@@ -1,0 +1,67 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.contentLogin {
+    width: 500px;
+}
+
+.separatorContent {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.separator {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+    background-color: #000;
+    margin: 32px 0px !important;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.MuiTextField-root {
+    margin-bottom: 16px;
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.subtitle {
+    min-width: 150px;
+}
+
+.buttonContent {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    justify-content: space-between;
+}
+
+.stylesButton {
+    background-color: #D3DC32 !important;
+}

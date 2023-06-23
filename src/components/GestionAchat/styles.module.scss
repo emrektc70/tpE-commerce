@@ -1,0 +1,65 @@
+.gestionAchat {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.content {
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.contentHeader {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+
+}
+
+.title {
+    color: #D3DC32;
+    padding-right: 8px;
+    min-width: 300px;
+    margin-bottom: 64px;
+}
+
+.separator {
+    width: 100%;
+    height: 1px !important;
+    background-color: #D3DC32
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 1200px;
+    max-width: 100vw;
+    justify-content: center;
+}
+
+.add {
+    margin-top: 64px;
+}
+
+.stylesButton {
+    background-color: #D3DC32 !important;
+}

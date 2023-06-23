@@ -1,0 +1,47 @@
+.gestionAdminn {
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.content {
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    flex-direction: column;
+}
+
+.contentHeader {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+
+}
+
+.title {
+    color: #D3DC32;
+    padding-right: 8px;
+    min-width: 300px;
+}
+
+.separator {
+    width: 100%;
+    height: 1px !important;
+    background-color: #D3DC32
+}

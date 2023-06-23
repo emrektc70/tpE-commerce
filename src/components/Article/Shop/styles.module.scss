@@ -1,0 +1,52 @@
+.shopContent {
+    width: 300px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+    //padding: 0px 48px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 400px;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.box {
+    width: 336px;
+    display: flex;
+    background-color: #D3DC32;
+    border-radius: 10px;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.addBasket {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: #B8860B;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+    position: absolute;
+    bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &:active {
+        opacity: 0.4;
+    }
+}
